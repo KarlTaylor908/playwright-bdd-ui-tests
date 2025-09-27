@@ -32,4 +32,3 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 ### 2) Run tests in the Command Palette (Ctrl+Shift+P)
 
 - npm run bdd
-- npx cucumber-js --tags @focus
