@@ -1,0 +1,24 @@
+{
+  "name": "playwrightcucumbertypescriptdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+      "scripts": {
+    "bdd": "cucumber-js --format progress --format html:reports/cucumber-report.html",
+    "bdd:parallel": "cucumber-js --parallel 4 --format progress --format html:reports/cucumber-report.html",
+    "bdd:headed": "cross-env HEADLESS=0 npm run bdd",
+    "smoke": "cucumber-js --tags @smoke --format progress --format html:reports/cucumber-report.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+    
+  }
+}

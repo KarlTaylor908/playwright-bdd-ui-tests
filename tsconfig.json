@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+     "forceConsistentCasingInFileNames": true,
+    "types": ["node"],
+    "rootDir": ".",
+    "outDir": "dist"
+  },
+    "include": ["features", "tests", "pages", "playwright.config.ts"],
+  "exclude": ["dist", "out", "node_modules"]
+}
