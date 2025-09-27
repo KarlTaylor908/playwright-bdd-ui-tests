@@ -29,7 +29,6 @@ get home(){return this._home ?? new HomePage (this.page);}
 
 constructor(options: IWorldOptions) {
 super(options);
-
 }
 }
 setWorldConstructor(CustomWorld);
