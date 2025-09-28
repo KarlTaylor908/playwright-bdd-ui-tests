@@ -1,4 +1,4 @@
-[https://github.com/KarlTaylor908/playwright-bdd-ui-tests/actions/runs/18066376567/job/51409558201]
+[![Playwright Tests](https://github.com/KarlTaylor908/playwright-bdd-ui-tests/actions/workflows/playwright.yml/badge.svg)](https://github.com/KarlTaylor908/playwright-bdd-ui-tests/actions/workflows/playwright.yml)
 # Automation UI Tests (TypeScript · Playwright · Cucumber)
 
 End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Playwright**, and **Cucumber (BDD)**.
