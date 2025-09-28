@@ -21,6 +21,7 @@ End-to-end UI tests for a retail-style shopping flow using **TypeScript**, **Pla
 - features/ # .feature files (Gherkin)
 - features/support/ # hooks, world, env setup
 - tests/steps/ # step definitions (.ts)
+- pages/ # Page Object Model structure (POM)
 
  ## Instructions on Use
 
